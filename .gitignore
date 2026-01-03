@@ -1,0 +1,34 @@
+# 敏感信息 (本地保留，不上传)
+credentials.json
+token.json
+config.py
+
+# 同步状态和日志
+sync_state.json
+*.log
+.sync.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
